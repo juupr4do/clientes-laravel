@@ -1,3 +1,29 @@
+## Como usar esse código
+esse é um código simples de teste do larável. Ele permite registrar Clientes e visualizar o que foi registrado.
+Também foi usado o login padrão que é possível instalar através do laravel.
+
+Bom, para fazer funcionar é necessário ter o laravel instalado (deixei informado abaixo infos sobre o laravel) e talvez tenha que configurar o banco para o seu local correspondente.
+Essas configurações devem ser trocadas no .env.
+O meu laravel está instalado e configurado para o MAMP.
+Provavelmente tenha que alterar a senha e o nome do banco
+O nome do banco atual é laravel
+Se você deseja criar um novo banco para essa aplicação sem alterar a que eu coloquei na configuração basta rodar
+
+                 CREATE SCHEMA laravel ;
+
+para rodar a aplicação, você deve entrar na pasta no prompt e rodar o seguinte comando
+
+                  php artisan server
+
+e acessar o localhost na porta indicada quando a aplicação rodar (provavelmente 8000)
+
+
+tá bem feio mas foi só um teste rápido de aprendizagem do laravel
+
+
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
